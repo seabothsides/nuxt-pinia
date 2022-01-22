@@ -1,0 +1,23 @@
+{
+  "name": "pinia-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "start": "nuxi start"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.8",
+    "core-js": "^3.19.3",
+    "nuxt-edge": "latest",
+    "pinia": "^2.0.9",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge"
+  }
+}

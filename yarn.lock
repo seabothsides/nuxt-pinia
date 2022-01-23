@@ -267,7 +267,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.15.0", "@babel/parser@^7.15.8", "@babel/parser@^7.16.3", "@babel/parser@^7.16.4", "@babel/parser@^7.16.7":
+"@babel/parser@^7.15.0", "@babel/parser@^7.15.8", "@babel/parser@^7.16.4", "@babel/parser@^7.16.7":
   version "7.16.7"
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.16.7.tgz"
   integrity sha512-sR4eaSrnM7BV7QPzGfEX5paG/6wrZM3I0HDzfIAK06ESvo9oy3xBuVBxE3MbQaKNhvg8g/ixjMWo2CGpzpHsDA==
@@ -1506,20 +1506,6 @@
     webpack-node-externals "^3.0.0"
     webpackbar "^5.0.2"
 
-"@nuxtjs/composition-api@^0.31.0":
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/composition-api/-/composition-api-0.31.0.tgz#4baa645ee45e306a49b72de6257fdb9438eb2b07"
-  integrity sha512-xplH/EJ17W/EjNP7M11URTOrQcjMYqQn1wXUkMOdMiSLKM58VWuCyt0uT9jNCHMUspeQ+SPzr9dxQkNBGvwfiA==
-  dependencies:
-    "@vue/composition-api" "^1.4.1"
-    defu "^5.0.0"
-    estree-walker "^2.0.2"
-    fs-extra "^9.1.0"
-    magic-string "^0.25.7"
-    ufo "^0.7.9"
-    unplugin-vue2-script-setup "^0.7.3"
-    upath "^2.0.1"
-
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
   resolved "https://registry.npmjs.org/@nuxtjs/youch/-/youch-4.2.3.tgz"
@@ -1847,7 +1833,7 @@
     estree-walker "^2.0.2"
     source-map "^0.6.1"
 
-"@vue/compiler-core@3.2.26", "@vue/compiler-core@^3.2.23", "@vue/compiler-core@^3.2.26":
+"@vue/compiler-core@3.2.26", "@vue/compiler-core@^3.2.26":
   version "3.2.26"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.26.tgz#9ab92ae624da51f7b6064f4679c2d4564f437cc8"
   integrity sha512-N5XNBobZbaASdzY9Lga2D9Lul5vdCIOXvUMd6ThcN8zgqQhPKfCV+wfAJNNJKQkSHudnYRO2gEB+lp0iN3g2Tw==
@@ -1881,7 +1867,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/composition-api@^1.4.1", "@vue/composition-api@^1.4.2":
+"@vue/composition-api@^1.4.2":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.4.3.tgz#c80eb8c692e16ebfcdab4af5344a6e3ff8ccc38e"
   integrity sha512-Qp4rMbESO05/7/Imck027X5lPhbmMX/mtYSDvIMJ14PS4KHY/4GllnQbPEfsBEe1LECFE6HWx2k7HYgcuYNvpg==
@@ -1893,7 +1879,7 @@
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.21.1.tgz#f1410f53c42aa67fa3b01ca7bdba891f69d7bc97"
   integrity sha512-FqC4s3pm35qGVeXRGOjTsRzlkJjrBLriDS9YXbflHLsfA9FrcKzIyWnLXoNm+/7930E8rRakXuAc2QkC50swAw==
 
-"@vue/ref-transform@^3.2.23", "@vue/ref-transform@^3.2.24":
+"@vue/ref-transform@^3.2.24":
   version "3.2.24"
   resolved "https://registry.yarnpkg.com/@vue/ref-transform/-/ref-transform-3.2.24.tgz#335bf06e0b25be16e7056cc4117c51a79f0c9122"
   integrity sha512-j6oNbsGLvea2rF8GQB9w6q7UFL1So7J+t6ducaMeWPSyjYZ+slWpwPVK6mmyghg5oGqC41R+HC5BV036Y0KhXQ==
@@ -1909,7 +1895,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.24.tgz#d74615e856013b17fb60b19b09d712729ad5e090"
   integrity sha512-BUgRiZCkCrqDps5aQ9av05xcge3rn092ztKIh17tHkeEFgP4zfXMQWBA2zfdoCdCEdBL26xtOv+FZYiOp9RUDA==
 
-"@vue/shared@3.2.26", "@vue/shared@^3.2.23", "@vue/shared@^3.2.26":
+"@vue/shared@3.2.26", "@vue/shared@^3.2.26":
   version "3.2.26"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.26.tgz#7acd1621783571b9a82eca1f041b4a0a983481d9"
   integrity sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==
@@ -10271,26 +10257,6 @@ unplugin-vue2-script-setup@0.8.3:
     "@vue/compiler-dom" "^3.2.26"
     "@vue/ref-transform" "^3.2.24"
     "@vue/shared" "^3.2.26"
-    defu "^5.0.0"
-    htmlparser2 "5.0.1"
-    magic-string "^0.25.7"
-    unplugin "^0.2.21"
-
-unplugin-vue2-script-setup@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/unplugin-vue2-script-setup/-/unplugin-vue2-script-setup-0.7.3.tgz#edf63f7f183d8f50d2991d12f120f78faeb78a5a"
-  integrity sha512-3C32JkCS7BsNsgUkVnCEIJynHy+N/xwqiaUiMkeTm3Rk+HfHMhEPQ5Gysg3tejWY7KJyk8CohUKswTChurI1ng==
-  dependencies:
-    "@antfu/utils" "^0.3.0"
-    "@babel/core" "^7.16.0"
-    "@babel/generator" "^7.16.0"
-    "@babel/parser" "^7.16.3"
-    "@babel/traverse" "^7.16.3"
-    "@babel/types" "^7.16.0"
-    "@rollup/pluginutils" "^4.1.1"
-    "@vue/compiler-core" "^3.2.23"
-    "@vue/ref-transform" "^3.2.23"
-    "@vue/shared" "^3.2.23"
     defu "^5.0.0"
     htmlparser2 "5.0.1"
     magic-string "^0.25.7"
